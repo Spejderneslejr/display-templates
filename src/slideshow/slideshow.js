@@ -122,14 +122,14 @@ function Slideshow({ slide, content, run, slideDone, executionId }) {
 
   // Setup animation
   useEffect(() => {
-    if (animations !== null) {
-      // Adds the animation to the stylesheet. because there is an element of random, we cannot have it in the .scss file.
-      const styleSheet = document.styleSheets[0];
-      styleSheet.insertRule(
-        getCurrentAnimation(animations),
-        styleSheet.cssRules.length
-      );
-    }
+    // if (animations !== null) {
+    //   // Adds the animation to the stylesheet. because there is an element of random, we cannot have it in the .scss file.
+    //   const styleSheet = document.styleSheets[0];
+    //   styleSheet.insertRule(
+    //     getCurrentAnimation(animations),
+    //     styleSheet.cssRules.length
+    //   );
+    // }
   }, []);
 
   // Get image style for the given image url.

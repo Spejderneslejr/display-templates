@@ -4,9 +4,9 @@
   "id": "01FQC300GGWCA7A8H0SXY6P9FG",
   "description": "Mulighed for at vise et rss feed.",
   "resources": {
-    "component": "https://raw.githubusercontent.com/os2display/display-templates/develop/build/rss.js",
-    "admin": "https://raw.githubusercontent.com/os2display/display-templates/develop/build/rss-admin.json",
-    "schema": "https://raw.githubusercontent.com/os2display/display-templates/develop/build/rss-schema.json",
+    "component": "https://display-templates.local.itkdev.dk/build/rss.js",
+    "admin": "https://display-templates.local.itkdev.dk/build/rss-admin.json",
+    "schema": "https://display-templates.local.itkdev.dk/build/rss-schema.json",
     "assets": [],
     "options": {},
     "content": {}
